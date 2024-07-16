@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.like-icon {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .liked {
+    color: red;
+    transform: scale(1.2);
+  }
+  
+  .not-liked {
+    color: gray;
+    transform: scale(1);
+  }
+  
+  .like-icon:hover {
+    transform: scale(1.1);
+  }
+  
+
+  
